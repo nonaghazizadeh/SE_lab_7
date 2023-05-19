@@ -57,7 +57,12 @@
   ![](https://github.com/nonaghazizadeh/SE_lab_7/assets/59199865/1097cfe3-a88a-4f3d-8e25-dd72db742beb)
   
 ### ریفکتور facade (مورد دوم)
+<p align="justify">
 
+به منظور اعمال الگو facade برای کلاس main بک کلاس ParserStarterFacade تعریف می‌کنیم که از داخل main آن را صدا بزند.
+  </p>
+  
+  ![](https://github.com/nonaghazizadeh/SE_lab_7/assets/59199865/4924a91d-af7a-4f1d-87b5-2b996d4e8613)
 
 
 
