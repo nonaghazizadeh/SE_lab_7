@@ -32,13 +32,12 @@ public class Token {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
         int result = type.hashCode();
-        if (type == Type.KEYWORDS) result = prime * result + (value == null ? 0 : value.hashCode());
+        if (type == Type.KEYWORDS) result = 31 * result + (value == null ? 0 : value.hashCode());
         return result;
     }
 
-    public static Type getTyepFormString(String s) {
+    public static Type getTypeFormString(String s) {
         Pattern pattern;
         Matcher matcher;
         for (Type t : Type.values()) {
